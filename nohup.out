@@ -1,0 +1,35 @@
+
+> nodestartercode@0.0.0 start /home/ubuntu/node-starter-code
+> node ./build/bin/www.js
+
+(node:2106) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:2106) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:2106) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+[0mGET /key/12 [32m200 [0m19.084 ms - 175[0m
+[0mGET /key/12 [32m200 [0m4.137 ms - 175[0m
+[0mGET /key/12 [32m200 [0m3.091 ms - 175[0m
+[0mGET /key/12 [32m200 [0m3.025 ms - 175[0m
+[0mPOST /key [31m500 [0m1.022 ms - 85[0m
+[0mGET /key/12 [32m200 [0m2.815 ms - 175[0m
+(node:2106) DeprecationWarning: Mongoose: `findOneAndUpdate()` and `findOneAndDelete()` without the `useFindAndModify` option set to false are deprecated. See: https://mongoosejs.com/docs/deprecations.html#findandmodify
+[0mPOST /key [32m200 [0m15.354 ms - 61[0m
+[0mGET /key/12 [32m200 [0m2.971 ms - 175[0m
+[0mGET /key/12 [32m200 [0m3.684 ms - 175[0m
+[0mGET / [33m404 [0m136.911 ms - 1986[0m
+Error: Failed to lookup view "error" in views directory "/home/ubuntu/node-starter-code/build/views"
+    at Function.render (/home/ubuntu/node-starter-code/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/ubuntu/node-starter-code/node_modules/express/lib/response.js:1008:7)
+    at /home/ubuntu/node-starter-code/build/app.js:74:7
+    at Layer.handle_error (/home/ubuntu/node-starter-code/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:315:13)
+    at /home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/ubuntu/node-starter-code/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:315:13)
+    at /home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:275:10)
+    at /home/ubuntu/node-starter-code/build/app.js:56:3
+    at Layer.handle [as handle_request] (/home/ubuntu/node-starter-code/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/node-starter-code/node_modules/express/lib/router/index.js:317:13)
