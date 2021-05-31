@@ -18,6 +18,9 @@ src: src folder contains
       bin: bin contains all binaries files 
       controller: Controller contains key.js that is a wrapper to get and put the key and value.
       models:  model will define the schema for the database.
+      
+The package. json file in the app root defines what libraries will be installed into node_modules when you run npm install.
+
  With in the project root directory by running the below commands:
  npm run build
  npm run start
