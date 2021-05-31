@@ -45,3 +45,5 @@ Since Application is configured on AWS platform and API is accessible globally:
 http://13.234.76.62:3000/key/12
 
 The above are the some basics instructions which are required to setup the application and to verify the application working it could be done by using postman or curl request.
+
+Attaching the screenshots of application working can be seen in issues.
