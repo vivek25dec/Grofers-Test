@@ -34,9 +34,14 @@ curl --location --request POST 'http://13.234.76.62:3000/key' \
      "key": "12",
      "value": "120"
  }'
+
+
 curl --location --request GET 'http://13.234.76.62:3000/key/12'
 
 I have tested the application using the Postman API which is an API tool where I have imported my API and working sucessfully.
 
 Since Application is configured on AWS platform and API is accessible globally:
+
 http://13.234.76.62:3000/key/12
+
+The above are the some basics instructions which are required to setup the application and to verify the application working it could be done by using postman or curl request.
